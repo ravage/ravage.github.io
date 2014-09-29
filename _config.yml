@@ -1,0 +1,10 @@
+# Site settings
+title: /var/log/notes
+email: ravage@fragmentized.net
+description: >
+  notes, ramblings and other random brain dumps
+baseurl: ""
+url: "http://fragmentized.net"
+twitter_username: ethiainen
+github_username:  ravage
+markdown: kramdown

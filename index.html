@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+<h1 class="ui-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+<ul class="ui-post-metadata">
+    <li><i class="fa fa-clock-o"></i> {{ post.date | date: "%B %d, %Y" }}</li>
+</ul>
+{{ post.excerpt }}
+{% endfor %}
